@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: Cabin_Bold;
+	src: url(../fonts/Cabin-Bold.ttf);
+}
+@font-face {
+	font-family: Cabin_BoldItalic;
+	src: url(../fonts/Cabin-BoldItalic.ttf);
+}
+@font-face {
+	font-family: Cabin_Italic;
+	src: url(../fonts/Cabin-Italic.ttf);
+}
+@font-face {
+	font-family: Cabin_Medium;
+	src: url(../fonts/Cabin-Medium.ttf);
+}
+@font-face {
+	font-family: Cabin_MediumItalic;
+	src: url(../fonts/Cabin-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Cabin_Regular;
+    src: url('../fonts/Cabin-Regular.ttf');
+}
+@font-face {
+    font-family: Cabin_SemiBold;
+    src: url('../fonts/Cabin-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Cabib_SemiBoldItalic;
+    src: url('../fonts/Cabin-SemiBoldItalic.ttf');
+}
+
+.font-cabin-bold{
+	font-family: Cabin_Bold;
+}
+.font-cabin-bolditalic{
+	font-family: Cabin_BoldItalic;
+}
+.font-cabin-italic{
+	font-family: Cabin_Italic;
+}
+.font-cabin-medium{
+	font-family: Cabin_Medium;
+}
+.font-cabin-mediumitalic{
+	font-family: Cabin_MediumItalic;
+}
+.font-cabin-regular{
+	font-family: Cabin_Regular;
+}
+.font-cabin-semibold{
+	font-family: Cabin_SemiBold;
+}
+.font-cabin-semibolditalic{
+	font-family: Cabin_SemiBoldItalic;
+}

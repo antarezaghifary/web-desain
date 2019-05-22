@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0 auto;
+    padding: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    list-style:none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Atrribute */
+
+a, a:hover{
+	text-decoration: none
+}
+.color-white{
+    color: #ffffff;
+}
+.color-white2{
+    color: #f5f5f5;
+}
+.color-black{
+    color: #000000;
+}
+.color-black2{
+    color: #212121;
+}
+.color-black3{
+    color: #424242;
+}
+.color-blue{
+	color: #1BBC9D;
+}
+.hr-blue{
+    border: 2px solid #DD5E7A;
+    border-radius: 3px;
+}
+.text-center{
+	text-align: center;
+}
+.marginleft-auto{
+	margin-left: auto!important;
+}
+.marginright-auto{
+	margin-right: auto!important;
+}
+.center-content{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Pop up */
+
+.ac-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,.6);
+	z-index: 1001;
+}
+.popup{
+	width: 555px;
+	height: 375px;
+	background: #FFFFFF;
+	border: 2px solid #212121;
+	border-radius: 25px;
+	position: relative;
+	top: 150px; left: 375px;
+}
+#tutup{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background:white;
+	border:2px #212121 solid;
+	font-weight:bolder;
+	top:0;
+	right: 0;
+	text-align:center;
+	line-height:50px;
+	font-size:40px;
+	margin-right:10px;
+	position : absolute;
+}
+
+
+.navigasi{
+	position: absolute;
+}
+.menu .logo p{
+	float: left;
+	padding-top: 15px;
+	font-size: 42px;
+}
+
+.navigasiats{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    text-decoration: none;
+}
+.team{
+    padding-top: 15px;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    text-decoration: none; 
+	font-size: 42px;
+}
+.team p{
+	font-size: 42px!important;
+}
+.beranda :hover, .profil:hover, .jurnal:hover, .akademik:hover{
+	text-decoration: underline;
+	text-decoration-color: #f5f5f5;
+}
+.beranda{
+	padding-top: 15px;
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 500px;
+}
+.profil{
+    font-size: 20px;
+	padding-top: 15px;
+    position: relative;
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: -150px;
+}
+.jurnal{
+    font-size: 20px;
+	padding-top: 15px;
+    position: relative;
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: -250px;
+}
+.akademik{
+    font-size: 20px;
+	padding-top: 15px;
+    position: relative;
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: -360px;
+}
+
+
+/* Section header */
+
+.header-bg{
+	background-image: url(../images/bg-header.png);
+	background-size: cover;
+	height: 596px;
+	background-repeat: no-repeat;
+}
+.content-header h1, h2, p{
+	margin: 0;
+	padding-left: 40px;
+}
+.content-header h1{
+	padding-top: 225px;
+	font-size: 64px;
+}
+.content-header h2{
+	font-size: 16px;
+	padding-top: 5px;
+}
+.content-header p{
+	font-size: 18px;
+	margin-top: 40px;
+	word-wrap: break-word;
+}
+.content-header p:hover{
+	text-decoration: underline!important;
+}
+.wrapper {
+	  width: 100%;
+	  padding-right: 15px;
+	  padding-left: 15px;
+	  margin-right: auto;
+	  margin-left: auto;
+}
+
+/* Section intro */
+
+.intro-bg{
+	background-color: white;
+}
+.content-intro img, h1, p{
+	margin: 0;
+}
+.content-intro img{
+	float: left;
+}
+.content-intro h1{
+	padding-top: 80px;
+	font-size: 50px;
+}
+.content-intro p{
+	font-size: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center!important;
+	padding-top: 20px;
+}
+
+/* Section Jurnal */
+
+jurnal-bg{
+	background-color: white;
+}
+#jurnal p{
+    text-decoration: none;
+    text-align: center;
+	clear: both;
+	padding-bottom: 20px;
+}
+.ds{
+    margin-left: 50px;
+    float: left;
+}
+.mhs{
+    margin-right: 50px;
+    float: right;
+}
+.kontentjurnal1{
+    width: 400px;
+    height: 80px;
+    margin-left: 20px;
+    position: relative;
+}
+.kontendosen1{
+    width: 500px;
+    height: 150px;
+    background-color: #1BBC9D;
+	border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 30px; 
+    position: relative;
+}
+.kontendosen1 img{
+    width: 120px;
+    height: 250px;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+.kontendosen2{
+    width: 500px;
+    height: 150px;
+    background-color: #1BBC9D;
+	border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 50px; 
+    position: relative;
+}
+.kontendosen2 img{
+    width: 120px;
+    height: 250px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.kontenmhs1{
+    width: 500px;
+    height: 150px;
+    background-color: #1BBC9D;
+	border-radius: 20px;
+    margin-top: -320px;
+    margin-left: 830px;
+    margin-right: 30px;
+    position: relative;
+
+    /* float: right; */
+}
+.kontenmhs1 img{
+    width: 120px;
+    height: 250px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.kontenmhs2{
+    width: 500px;
+    height: 150px;
+    background-color: #1BBC9D;
+	border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 830px;
+    margin-right: 30px;
+    position: relative;
+    /* float: right; */
+}
+.kontenmhs2 img{
+    width: 120px;
+    height: 250px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.hi{
+    margin-left: 150px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    /* margin-top: -250px; */
+    font-size: 20px;
+    position: absolute;
+    margin-top: -230px;
+}
+.readmore1{
+    width: 90px;
+    height: 30px;
+    background-color:orange;
+    margin-left: 400px;
+    margin-top: 70px;
+}
+.readmore2{
+    width: 90px;
+    height: 30px;
+    background-color: orange;
+    margin-left: 400px;
+    margin-top: 70px;
+}
+/* Slider */
+.slider-bg{
+	background: white;
+}
+.slideshow-container{
+	width: 600px;
+	padding-top: 80px;
+}
+
+/*Agenda */
+.agenda-bg{
+	background-color: white;
+}
+.agenda-bg img{
+	transition: all .2s ease-in-out;
+}
+.agenda-bg img:hover{
+	box-shadow: 0 0 25px rgba(33,33,33,.2); 
+}
+
+
+/* Footer */
+.footer-bg{
+	height: 100px;
+	background: linear-gradient(to right, #1BBC9D, #3b3752);
+}
+.footer-bg h1, .footer-bg p{
+	margin: auto;
+	text-align: center;
+}
+.footer-bg h1{
+	padding-top: 20px;
+}
